@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    font-weight: bold;
+    font-family: "space grotesk";
+}
+header{
+    background-color: #FFD154;
+}
+body{
+    overflow-x: hidden;
+}
+/*.navigation */ a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+}
+.navigation  a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2%;
+    padding-right: 5%;
+    padding-top: 1.8%;
+}
+.logo img{
+    padding-left: 2%;
+    width: 35px;
+    height: 35px;
+}
+.logo p{
+    font-size: 1.7em;
+}
+.navigation{
+    display: flex;
+    justify-content: end;
+    gap: 3%;
+    padding-right: 3%;
+    position: relative;
+    bottom: 70px;
+}
+.section1{
+    background-color: #FFD154;
+}
+.section1 img{
+    width: 850px;
+    height: 600px;
+    position: relative;
+    left: 350px;
+    top: 70px;
+    z-index: 2;
+}
+.section1 p{
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    display: inline-block;
+    font-size: 2.3em;
+    background-color: white;
+}
+.les-p{
+    position: relative;
+    left: 1090px;
+    bottom: 350px;
+}
+.p1{
+    position: absolute;
+    bottom: 220px;
+}
+.p3{
+    position: absolute;
+    left: 0px;
+    top: 220px;
+}
+.les-p .p3{
+    border: 3px solid black;
+    padding: 25px;
+    font-size: 2em;
+    border-radius: 70px;
+    background-color: #FC724C;
+
+}
+.end{
+    display: flex;
+    align-items: end;
+    padding-left: 5%;
+}
+.end a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+.section2 .p1-sec2{
+    border: 3px solid black;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 2.8em;
+    background-color: white;
+}
+.section2 .p2-sec2{
+    border: 3px solid black;
+    display: inline-block;
+    border-top-left-radius: 65px;
+    border-top-right-radius: 65px;
+    border-bottom-right-radius: 65px;
+    padding: 25px;
+    font-size: 2.8em;
+    background-color: white;
+}
+.section2{
+    height: 100vh;
+    position: relative;
+    background-color: #FC724C;
+}
+.p-sec2{
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    gap: 50px;
+}
+.p2-sec2{
+    position: relative;
+    top: 20px;
+}
+.section3 p{
+    text-align: center;
+}
+.p1-sec3{
+    font-size: 7em;
+    padding-top: 70px;
+    color: white;
+}
+.p2-sec3{
+    font-size: 1.2em;
+    padding-top: 35px;
+    padding-bottom: 85px;
+    color: white;
+}
+.tel{
+
+    height: 2800px;
+    width: 400px;
+    background-color: #FC724C;
+    border: 3px solid black;
+    border-radius: 40px;
+    position: relative;
+    left: 700px;
+}
+.point1{
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 75px;
+}
+.point2{
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 75px;
+}
+.point3{
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 75px;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    position: relative;
+    top: 35px;
+    left: 25px;
+}
+.p3-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    right: 40px;
+    top: 205px;
+    
+
+}
+.p4-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    right: 40px;
+    top: 510px;
+}
+.p5-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    right: 40px;
+    top: 710px;
+}
+.p6-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 910px;
+}
+.p7-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 1210px;
+    border-bottom-left-radius: 0px;
+}
+
+.p8-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 1460px;
+}
+
+.p9-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    right: 40px;
+    top: 1650px;
+    border-bottom-right-radius: 0px;
+}
+.p10-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 1860px;
+}
+
+.p11-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    right: 40px;
+    top: 2050px;
+    border-bottom-right-radius: 0px;
+}
+.p12-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    right: 40px;
+    top: 2280px;
+}
+.p13-sec3{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 2395px;
+    border-bottom-left-radius: 0px;
+}
+.section3{
+    height: 360vh;
+    background-color: #3B71EE;
+}
+.tel p{
+    background-color: white;
+    font-size: 1.6em;
+}
+.tel{
+    background-color: white;
+}
+.section3 img{
+    width: 320px;
+    height: 300px;
+}
+.img1{
+    position: absolute;
+    top:208em;
+    left: 22em;
+}
+.img2{
+    position: absolute;
+    top:223em;
+    left: 68em;
+}
+.img3{
+    position: absolute;
+    top:158em;
+    left: 68em;
+}
+.img4{
+    position: absolute;
+    top:253em;
+    left: 22em;
+}
+.img5{
+    position: absolute;
+    top:275em;
+    left: 70em;
+}
+.img6{
+    position: absolute;
+    top:292em;
+    left: 22em;
+}
+.section4{
+    background-color: #FC724C;
+    height: 90vh;
+}
+.section4 p{
+    border: 3px solid black;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    font-size: 2em;
+    background-color: white;
+}
+.p-sec4{
+    position: relative;
+    top: 200px;
+    left: 300px;
+    gap: 50px;
+}
+.p2-sec4{
+    position: absolute;
+    top: 215px;
+    left: 38px;
+}
+.section4 img{
+    width: 650px;
+    height: 600px;
+    position: absolute; 
+    left:689px;
+    top: 335em;
+}
+.section5{
+    background-color:#FFD154;
+    height: 110vh;
+}
+.section5 img{
+    width: 35px;
+    height: 35px;
+
+}
+.section5 h1{
+    font-size: 6em;
+    text-align: center;
+    padding-top: 80px;
+}
+.p-sec5{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    padding-top: 600px;
+}
+.p-sec5{
+    font-size: 2em;
+}
+.section5 .image2{
+    width: 750px;
+    height: 500px;
+    position: relative;
+    bottom: 580px;
+    left: 559px;
+}
+.e1{
+    position: relative;
+bottom: 500px;
+    left: 500px;
+}
+.e2{
+    position: relative;
+    bottom: 750px;
+    left: 500px;
+}
+.e3{
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+}
+
+.e4{
+    position: relative;
+    bottom: 500px;
+    left: 1250px;
+}
+.e5{
+    position: relative;
+    bottom: 100px;
+    left: 1250px;
+}
+.section6 img{
+    width: 300px;
+    height: 300px;
+}
+.images{
+    padding-top: 95px;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+.section7 img{
+
+    width: 550px;
+    height: 550px;
+    position: relative;
+    left: 100px;
+    padding-top: 90px;
+}
+.section7{
+    background-color:#FC724C;
+}
+.section7 p{
+    border: 3px solid black;
+    padding: 25px;
+    font-size: 2em;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+    background-color: white;
+
+} 
+.section7 a{
+    border: 3px solid black;
+    padding: 25px;
+    font-size: 2em;
+    border-radius: 75px;
+    position: relative;
+    left: 90px;
+    bottom: 200px;
+    background-color: #FFD154;
+}
+
+.section7 a:hover{
+    background-color: #FC724C;
+}
+.sect8 p{
+    font-size: 2em;
+    padding-left: 32px;
+
+}
+.sect8 p:hover{
+    text-decoration: underline;
+}
+.sect8 {
+    background-color: #FC724C;
+    padding-top: 75px;
+}
+.sect8 .navigation{
+    position: relative;
+    bottom: 30px;
+}
+
+.section1 .p3:hover{
+    filter: brightness(0.9);
+
+}
+
+
+
